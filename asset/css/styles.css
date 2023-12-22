@@ -1,0 +1,136 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fdf9ea;
+}
+
+.header {
+    grid-area: header;
+    background-color: #f1ded1;
+    background-image: url(../img/icon.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 4rem;
+    border-radius: .5rem;
+
+}
+h1{
+    background-color: #f1ded1;
+    margin-left: 7rem;
+    padding: 1.2rem;
+}
+strong{
+    background-color: #f1ded1;
+}
+.main {
+    grid-area: main;
+}
+
+h5{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: end;
+    font-weight: 500;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    background-color: #dec3b0;
+    border-radius: .5rem;
+}
+
+.list-group-item{
+    padding: .5rem;
+    text-align: center;
+    background-color: #dec3b0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.list-group-item:hover,
+.list-group-item:active{
+    background-color: #cbb3a3;
+}
+
+
+.footer{
+    grid-area: footer;
+    border-radius: .5rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+}
+    
+
+nav{
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f1ded1;
+}
+
+.box{
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #f1ded1;
+    color: #000;
+    font-size: 1.2rem;
+    padding: .5rem;
+    font-weight: 700;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    background-color: #f1ded1;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 2rem;
+}
+
+
+
+.btn {
+    background-color: #dec3b0;
+    border: none;
+    color: #fff;
+}
+
+.btn:active,
+.btn:hover{
+    background-color: #d5bcaa;
+    color: #fff;
+    font-weight: 700;
+}
+
+
